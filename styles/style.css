@@ -216,17 +216,15 @@
   background-image: url(../images/image.png);
 }
 .lots_look-more-link {
-  display: inline-block;
+  display: block;
+  width: 100%;
   font-size: 20px;
   font-weight: 400;
   color: black;
   text-decoration: underline;
   text-underline-offset: 5px;
-  margin-top: 30px;
   margin-left: 40px;
-  max-width: calc(100% - 40px);
-  box-sizing: border-box;
-  word-wrap: break-word; 
+  margin-top: 30px;
 }
 .about {
   width: 1052px;

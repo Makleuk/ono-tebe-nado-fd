@@ -12,12 +12,29 @@ body {
   background-color: #FFFFFF;
   font-family: Raleway, sans-serif;
   font-weight: 400;
+  width: 100%;
+  
 }
 
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+img, video, iframe, canvas, table {
+  max-width: 100%;
+  height: auto;
+}
 img {
   display: inline;
 }
-
+.header_menu_logo,
+.about_logo-image,
+.footer_socials_icon {
+    max-width: none;
+    width: auto;
+}
 h1,
 h2,
 h3,
